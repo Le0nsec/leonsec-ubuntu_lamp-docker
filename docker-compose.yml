@@ -1,0 +1,14 @@
+version: "3"
+services:
+  web:
+    build: .
+    container_name: message_board_test
+    volumes:
+      - ./src:/app
+    restart: always
+    ports:
+      - "8080:80"
+      #- "8081:3306"
+    environment:
+      - FLAG=flag{test_xxxxxx}
+      #if $FLAG exist in flag.sh, delete here
