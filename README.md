@@ -56,7 +56,7 @@ docker rm <container name/container id>
     ├── index.php
     ├── logo.png
     └── phpinfo.php
-
+```
 
 * The sql file is renamed to `db.sql` and placed under the current folder
 
